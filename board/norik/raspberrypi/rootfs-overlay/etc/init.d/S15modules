@@ -1,0 +1,30 @@
+#!/bin/sh
+
+
+start() {
+	modprobe smsc95xx
+	modprobe leds-gpio
+	modprobe ledtrig-heartbeat
+}
+
+stop() {
+	modprobe -r smsc95xx
+        modprobe -r leds-gpio
+        modprobe -r ledtrig-heartbeat
+}
+
+
+case "$1" in
+  start)
+    start
+    ;;
+  stop)
+    stop
+    ;;
+  retart)
+    stop
+    start
+    ;;
+  *)
+    echo "Usage: $0 {start|stop|restart}"
+esac

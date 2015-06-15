@@ -1,0 +1,24 @@
+First commmit. Added custom rootfs-overlay, custom kernel config with device-tree enabled and post-build.sh script.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   board/norik/raspberrypi/linux-3.18-rpi-dt-norik.defconfig
+#	new file:   board/norik/raspberrypi/post-build.sh
+#	new file:   board/norik/raspberrypi/rootfs-overlay/boot/cmdline.txt
+#	new file:   board/norik/raspberrypi/rootfs-overlay/etc/fstab
+#	new file:   board/norik/raspberrypi/rootfs-overlay/etc/init.d/S15modules
+#	new file:   board/norik/raspberrypi/rootfs-overlay/etc/init.d/S40network
+#	new file:   board/norik/raspberrypi/rootfs-overlay/etc/init.d/S60leds
+#	new file:   board/norik/raspberrypi/rootfs-overlay/etc/inittab
+#	new file:   board/norik/raspberrypi/rootfs-overlay/etc/interfaces
+#	new file:   board/norik/raspberrypi/rootfs-overlay/etc/wpa_supplicant.conf
+#	new file:   board/norik/raspberrypi/rootfs-overlay/norik/README
+#	new file:   configs/rpi_dt_norik_defconfig
+#	new file:   system/skeleton/etc/init.d/S02modules
+#	new file:   system/skeleton/etc/init.d/S60leds
+#	new file:   system/skeleton/norik/README
+#

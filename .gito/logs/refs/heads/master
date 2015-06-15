@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 187997ebb9d9b800f7c8360b0015d18819e508f9 primox <prix@primox.net> 1433922536 +0200	clone: from git://git.buildroot.net/buildroot
+187997ebb9d9b800f7c8360b0015d18819e508f9 97b7fd055dcbdbf9064aff30641742d4f488e134 primox <prix@primox.net> 1433922665 +0200	pull: Fast-forward
+97b7fd055dcbdbf9064aff30641742d4f488e134 4d7e4e43e973695b5776e08398853dda021bae6a primox <prix@primox.net> 1434350870 +0200	commit: First commmit. Added custom rootfs-overlay, custom kernel config with device-tree enabled and post-build.sh script.
